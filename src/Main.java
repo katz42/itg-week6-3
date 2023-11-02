@@ -5,7 +5,7 @@ public class Main {
         DayOfWeek i = DayOfWeek.Thursday;
         switch (i) {
             case Monday, Tuesday, Wednesday, Thursday, Friday -> System.out.println("Сегодня будний день");
-            case Saturday, Sunday -> System.out.println("Сегодня суббота, это выходной день");
+            case Saturday, Sunday -> System.out.println("Сегодня выходной день");
         }
     }
 }
